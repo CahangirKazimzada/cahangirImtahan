@@ -1,0 +1,242 @@
+.resp-list{
+    background-color: black;
+    overflow: hidden;
+    opacity: 0.5;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    width: 0;
+    height: 100%;
+    transition: all 0.3s ease;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li{
+            a{
+                color: white;
+            }
+        }
+    }
+}
+.open-list{
+    width: 200px;
+}
+main{
+    #production{
+        padding: 0 20px;
+        background-color: #f6214b;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            .production-container{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .left{
+                    .small-text{
+                        color: white;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 20px;
+                        letter-spacing: 3px;
+                        font-weight: 300;
+                    }
+                    .big-text{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 60px;
+                        font-weight: 700;
+                        color: white;
+                        margin: 20px 0;
+                    }
+                    .book-btn{
+                        button{
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: bold;
+                            background-color: white;
+                            color: black;
+                            padding: 10px 20px;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #immigrants{
+        font-family: "Poppins", sans-serif;
+        padding: 100px 20px;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            .immigrants-container{
+                .title{
+                    text-align: center;
+                    .big-text{
+                        color: #222222;
+                        margin-bottom: 10px;
+                        margin-top: 0;
+                        font-weight: 600;
+                        font-size: 40px;
+                    }
+                    p{
+                        color: gray;
+                    }
+                }
+                .cards{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-top: 50px;
+                    .card-box{
+                        width: 260px;
+                        transition: 300ms;
+                        &:hover{
+                            color: #f6214b;
+                        }
+                        img{
+                            width: 100%;
+                        }
+                        .country{
+                            margin: 20px 0;
+                            a{
+                                background-color: black;
+                                color: white;
+                                padding: 10px 20px;
+                                transition: 0.3s ease;
+                                &:hover{
+                                    background-color: #f6214b;
+                                }
+                            }
+                        }
+                        .card-content{
+                            font-weight: 600;
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                        }
+                        .lorem-text{
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #features{
+        font-family: "Poppins", sans-serif;
+        padding: 100px 20px;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            .features-container{
+                .title{
+                    text-align: center;
+                    h1{
+                        font-size: 36px;
+                        margin-bottom: 20px;
+                        font-weight: 300;
+                    }
+                    p{
+                        color: gray;
+                        font-weight: 200;
+                    }
+                }
+                .items{
+                    margin-top: 30px;
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    row-gap: 100px;
+                    justify-content: space-between;
+                    align-items: center;
+                   .item-box{
+                    width: 290px;
+                    .box-title{
+                        margin-bottom: 10px;
+                        span{
+                            i{
+                                margin-right: 30px;
+                            }
+                        }
+                    }
+                    p{
+                        font-weight: 200;
+                    }
+                   } 
+                }
+            }
+        }
+    }
+    #news{
+        padding: 80px 20px;
+        font-family: "Poppins", sans-serif;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            .news-container{
+                .title{
+                    text-align: center;
+                    margin-bottom: 60px;
+                    h1{
+                        font-size: 36px;
+                        margin-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    p{
+                        color: gray;
+                        font-weight: 200;
+                    }
+                }
+                .blog-cards{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    .box{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        width: 540px;
+                        img{
+                            width: 100%;
+                        }
+                        .links{
+                            a{
+                                color: white;
+                                background-color: #f6214b;
+                                font-size: 15px;
+                                font-weight: 300;
+                                padding: 0 5px;
+                                transition: 0.3s ease;
+                                &:hover{
+                                    background-color: white;
+                                    color: #222;
+                                }
+                            }
+                            a:first-child{
+                               color: white;
+                               background-color: #f6214b;
+                               margin-right: 10px;
+                               transition: 0.3s ease;
+                               &:hover{
+                                background-color: white;
+                                color: #222;
+                            }
+                            }
+                        }
+                        .box-content{
+                            font-weight: 600;
+                        }
+                        .lorem-text{
+                            font-weight: 300;
+                        }
+                        .date{
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

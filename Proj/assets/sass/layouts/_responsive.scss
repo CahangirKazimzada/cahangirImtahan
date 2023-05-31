@@ -1,0 +1,76 @@
+@media screen and (max-width: 768px){
+    header{
+        #title{
+            .container{
+                .title-container{
+                    .title-info{
+                        display: none;
+                    }
+                    .contact{
+                        display: none;
+                    }
+                    .menu-bar{
+                        display: block;
+                        margin-left: 50px;
+                    }
+                }
+            }
+        }
+        #list{
+            display: none;
+        }
+    }
+    main{
+        #production{
+            .container{
+                .production-container{
+                    display: flex;
+                    flex-direction: column;
+                    .left{
+                        .small-text{
+                            font-size: 20px;
+                        }
+                        .big-text{
+                            font-size: 30px;
+                        }
+                    }
+                    .right{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        #immigrants{
+            .container{
+                .immigrants-container{
+                    .title{
+                        .big-text{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        #features{
+            .container{
+                .features-container{
+                    .items{
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .container{
+            .footer-container{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    }
+}

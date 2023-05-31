@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+header #title {
+  padding: 0 20px;
+  height: 80px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(201, 197, 197);
+}
+header #title .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+header #title .container .title-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #title .container .title-container .title-info {
+  font-weight: 300;
+  font-size: 18px;
+}
+header #title .container .title-container .contact {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header #title .container .title-container .contact a {
+  color: black;
+}
+header #title .container .title-container .contact .phone-icon {
+  cursor: pointer;
+  width: 85px;
+  background-color: #f6214b;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header #title .container .title-container .menu-bar {
+  display: none;
+}
+header #title .container .title-container .menu-bar i {
+  color: #f6214b;
+  border: 1px solid #f6214b;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+header #list {
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+header #list .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+header #list .container .list-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header #list .container .list-container ul li a {
+  color: #222;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 500ms;
+}
+header #list .container .list-container ul li a:hover {
+  color: #f6214b;
+}
+
+.resp-list {
+  background-color: black;
+  overflow: hidden;
+  opacity: 0.5;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  width: 0;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.resp-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resp-list ul li a {
+  color: white;
+}
+
+.open-list {
+  width: 200px;
+}
+
+main #production {
+  padding: 0 20px;
+  background-color: #f6214b;
+}
+main #production .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #production .container .production-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #production .container .production-container .left .small-text {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+main #production .container .production-container .left .big-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 20px 0;
+}
+main #production .container .production-container .left .book-btn button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+}
+main #immigrants {
+  font-family: "Poppins", sans-serif;
+  padding: 100px 20px;
+}
+main #immigrants .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #immigrants .container .immigrants-container .title {
+  text-align: center;
+}
+main #immigrants .container .immigrants-container .title .big-text {
+  color: #222222;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 40px;
+}
+main #immigrants .container .immigrants-container .title p {
+  color: gray;
+}
+main #immigrants .container .immigrants-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+main #immigrants .container .immigrants-container .cards .card-box {
+  width: 260px;
+  transition: 300ms;
+}
+main #immigrants .container .immigrants-container .cards .card-box:hover {
+  color: #f6214b;
+}
+main #immigrants .container .immigrants-container .cards .card-box img {
+  width: 100%;
+}
+main #immigrants .container .immigrants-container .cards .card-box .country {
+  margin: 20px 0;
+}
+main #immigrants .container .immigrants-container .cards .card-box .country a {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+}
+main #immigrants .container .immigrants-container .cards .card-box .country a:hover {
+  background-color: #f6214b;
+}
+main #immigrants .container .immigrants-container .cards .card-box .card-content {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+main #immigrants .container .immigrants-container .cards .card-box .lorem-text {
+  color: gray;
+}
+main #features {
+  font-family: "Poppins", sans-serif;
+  padding: 100px 20px;
+}
+main #features .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #features .container .features-container .title {
+  text-align: center;
+}
+main #features .container .features-container .title h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+main #features .container .features-container .title p {
+  color: gray;
+  font-weight: 200;
+}
+main #features .container .features-container .items {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+main #features .container .features-container .items .item-box {
+  width: 290px;
+}
+main #features .container .features-container .items .item-box .box-title {
+  margin-bottom: 10px;
+}
+main #features .container .features-container .items .item-box .box-title span i {
+  margin-right: 30px;
+}
+main #features .container .features-container .items .item-box p {
+  font-weight: 200;
+}
+main #news {
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+}
+main #news .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+main #news .container .news-container .title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+main #news .container .news-container .title h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+main #news .container .news-container .title p {
+  color: gray;
+  font-weight: 200;
+}
+main #news .container .news-container .blog-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main #news .container .news-container .blog-cards .box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 540px;
+}
+main #news .container .news-container .blog-cards .box img {
+  width: 100%;
+}
+main #news .container .news-container .blog-cards .box .links a {
+  color: white;
+  background-color: #f6214b;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0 5px;
+  transition: 0.3s ease;
+}
+main #news .container .news-container .blog-cards .box .links a:hover {
+  background-color: white;
+  color: #222;
+}
+main #news .container .news-container .blog-cards .box .links a:first-child {
+  color: white;
+  background-color: #f6214b;
+  margin-right: 10px;
+  transition: 0.3s ease;
+}
+main #news .container .news-container .blog-cards .box .links a:first-child:hover {
+  background-color: white;
+  color: #222;
+}
+main #news .container .news-container .blog-cards .box .box-content {
+  font-weight: 600;
+}
+main #news .container .news-container .blog-cards .box .lorem-text {
+  font-weight: 300;
+}
+main #news .container .news-container .blog-cards .box .date {
+  font-weight: 300;
+}
+
+footer {
+  padding: 50px 20px;
+  height: 100px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+footer .container .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer-container .left p span {
+  color: #f6214b;
+}
+footer .container .footer-container .right .icons {
+  display: flex;
+  gap: 40px;
+}
+footer .container .footer-container .right .icons a {
+  color: #222;
+  transition: 0.3s ease;
+}
+footer .container .footer-container .right .icons a:hover {
+  color: #f6214b;
+}
+
+@media screen and (max-width: 768px) {
+  header #title .container .title-container .title-info {
+    display: none;
+  }
+  header #title .container .title-container .contact {
+    display: none;
+  }
+  header #title .container .title-container .menu-bar {
+    display: block;
+    margin-left: 50px;
+  }
+  header #list {
+    display: none;
+  }
+  main #production .container .production-container {
+    display: flex;
+    flex-direction: column;
+  }
+  main #production .container .production-container .left .small-text {
+    font-size: 20px;
+  }
+  main #production .container .production-container .left .big-text {
+    font-size: 30px;
+  }
+  main #production .container .production-container .right img {
+    width: 100%;
+  }
+  main #immigrants .container .immigrants-container .title .big-text {
+    font-size: 25px;
+  }
+  main #features .container .features-container .items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .container .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,37 @@
+footer{
+    padding: 50px 20px;
+    height: 100px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        .footer-container{
+            display: flex;
+            justify-content: space-between;
+            .left{
+                p{
+                    span{
+                        color: #f6214b;
+                    }
+                }
+            }
+            .right{
+                .icons{
+                    display: flex;
+                    gap: 40px;
+                    a{
+                        color: #222;
+                        transition: 0.3s ease;
+                        &:hover{
+                            color: #f6214b;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
