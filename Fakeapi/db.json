@@ -1,0 +1,24 @@
+{
+    "cards" : [
+        {"id" : 1, 
+        "img" : "https://preview.colorlib.com/theme/immigration/img/s1.jpg.webp",
+        "country" : "United States", 
+        "content" : "Addiction When Gambling Becomes A Problem", 
+        "loremText" : "inappropriate behavior ipsum dolor sit amet, consectetur."},
+        {"id" : 2, 
+        "img" : "https://preview.colorlib.com/theme/immigration/img/s2.jpg.webp",
+        "country" : "Germany", 
+        "content" : "Addiction When Gambling Becomes A Problem", 
+        "loremText" : "inappropriate behavior ipsum dolor sit amet, consectetur."},
+        {"id" : 3, 
+        "img" : "https://preview.colorlib.com/theme/immigration/img/s3.jpg.webp",
+        "country" : "Canada", 
+        "content" : "Addiction When Gambling Becomes A Problem", 
+        "loremText" : "inappropriate behavior ipsum dolor sit amet, consectetur."},
+        {"id" : 4, 
+        "img" : "https://preview.colorlib.com/theme/immigration/img/s4.jpg.webp",
+        "country" : "Australia", 
+        "content" : "Addiction When Gambling Becomes A Problem", 
+        "loremText" : "inappropriate behavior ipsum dolor sit amet, consectetur."}
+    ]
+}
